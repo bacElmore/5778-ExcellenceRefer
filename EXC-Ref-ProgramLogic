@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-02T07:21:55.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0lvu2pAj4GD63HnlyBXq" version="21.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-02T07:44:17.924Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="80RJzBZm8UuZ5kYM65ys" version="21.3.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="IO Mapping">
     <mxGraphModel dx="2735.6" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="0.8" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -369,6 +369,14 @@
         <mxCell id="eQcrtxL6bSWlCYMlb9zC-74" value="State 5: OFF - Low LPR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="380" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZJsP-tU4pw0WPH4EJPKh" name="HoldLiquidSolenoidOutput">
+    <mxGraphModel dx="2074" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
