@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-02T05:59:41.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UldAXcSbMk4BAjMcLK5W" version="21.3.2" type="github">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2524" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-07-02T06:01:32.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="__z9SlT_Fg_ayjgYswql" version="21.3.2" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="IO Mapping">
+    <mxGraphModel dx="2735.6" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="0.8" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -19,7 +19,7 @@
         <mxCell id="yCXdLQ-Wsuw8X8NfdURu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yCXdLQ-Wsuw8X8NfdURu-2" target="yCXdLQ-Wsuw8X8NfdURu-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yCXdLQ-Wsuw8X8NfdURu-2" value="PLC Tags&lt;br&gt;&lt;br&gt;Incoming Data from Gateway tag table (for only EKE347s)&lt;br&gt;&lt;br&gt;Assigns %IW addresses to PLC tags&lt;br&gt;&lt;br&gt;Variables: AI_word_0 -&amp;gt; AI_word_23" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="yCXdLQ-Wsuw8X8NfdURu-2" value="PLC Tags&lt;br&gt;&lt;br&gt;Incoming Data from Gateway tag table (for only EKE347s)&lt;br&gt;&lt;br&gt;Assigns %IW addresses to PLC tags&lt;br&gt;&lt;br&gt;Tags: word_0 -&amp;gt; word_200" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="210" y="172.5" width="230" height="155" as="geometry" />
         </mxCell>
         <mxCell id="yCXdLQ-Wsuw8X8NfdURu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yCXdLQ-Wsuw8X8NfdURu-4" target="yCXdLQ-Wsuw8X8NfdURu-6">
@@ -43,7 +43,7 @@
         <mxCell id="yCXdLQ-Wsuw8X8NfdURu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yCXdLQ-Wsuw8X8NfdURu-14" target="yCXdLQ-Wsuw8X8NfdURu-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yCXdLQ-Wsuw8X8NfdURu-14" value="PLC Tags&lt;br&gt;&lt;br&gt;Outgoing Data to Gateway tag table (for only EKE347s)&lt;br&gt;&lt;br&gt;&amp;nbsp;Assigns PLC Tags %QW addresses&lt;br&gt;&lt;br&gt;Variables: AI_word_0 -&amp;gt; AI_word_23" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="yCXdLQ-Wsuw8X8NfdURu-14" value="PLC Tags&lt;br&gt;&lt;br&gt;Outgoing Data to Gateway tag table (for only EKE347s)&lt;br&gt;&lt;br&gt;&amp;nbsp;Assigns PLC Tags %QW addresses&lt;br&gt;&lt;br&gt;Tags: word_1 -&amp;gt; word_200" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="541" y="809.5" width="210" height="155" as="geometry" />
         </mxCell>
         <mxCell id="yCXdLQ-Wsuw8X8NfdURu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yCXdLQ-Wsuw8X8NfdURu-16" target="yCXdLQ-Wsuw8X8NfdURu-14">
